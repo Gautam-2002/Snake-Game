@@ -72,9 +72,9 @@ function generateRandomcell() {
 }
 
 function draw() {
-  ctx.fillStyle = "yellow";
+  ctx.fillStyle = "aqua";
   if (gameOver === true) {
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "grey";
     clearInterval(id);
     ctx.font = "40px Arial";
     ctx.fillText(`Game Over`, 400, 220);
